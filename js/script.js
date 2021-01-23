@@ -39,13 +39,13 @@ const ans4Btn = document.querySelector("#answer-4");
 const questions = [ 
     {
         question: "Inside which HTML element do we put the JavaScript?",
-        answers: ["1. <javascript>", "2.<script>",  "3. <scripting>", "4. <scrpt>"],
-        correctAnswer: "2"
+        answers: ["1. <javascript>", "2. <script>",  "3. <scripting>", "4. <scrpt>"],
+        correctAnswer: "1"
     },
     {
         question: "How can you add a comment in a JavaScript?",
         answers: ["1. //This is a commment", "2. <!--This is a commment-->", "3.'This is a comment'", "4. '<This is a comment>"],
-        correctAnswer: "1"
+        correctAnswer: "0"
     },
     {
         question: "A very useful tool used during development and debugging for printing content to the debugger is:",
@@ -55,12 +55,12 @@ const questions = [
     {
         question: "Which symbol is not used in logical operations?",
         answers: ["1.||", "2. %", "3. &&"],
-        correctAnswer: "2"
+        correctAnswer: "1"
     },
     {
         question: "JavaScript entities start with _______ and end with _________.",
-        answers: ["1. Semicolon, colon", "2. Semicolon, Ampersand", "3. Ampersand, colon", "4. Semicolon, Ampersand"],
-        correctAnswer: "3"
+        answers: ["1. Semicolon, colon", "2. Semicolon, Ampersand", "3. Ampersand, semicolon", "4. Semicolon, Ampersand"],
+        correctAnswer: "2"
     }
     
 ];
